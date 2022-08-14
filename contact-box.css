@@ -1,0 +1,66 @@
+#first-container{
+    padding-top: 30px;
+    background-color: #eeeeee;
+    /* background-image: url(./testpic.jpeg); */
+    background-attachment: fixed;
+    /* background-position: left; */
+    /* background-repeat: repeat; */
+    /* background-size: 1000px; */
+    color: white;
+    height: 100vh;
+}
+
+#contact-box{
+    background-color: #1F2235;
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+    height: 50vh;
+    width: 60vw;
+    box-shadow: 0 0 8px 2px #888;
+}
+
+#contact-box-row{
+    padding: 20px;
+    display: grid;
+    place-items: center;
+}
+
+label {
+    opacity: 0.6;
+}
+
+#form-style{
+    margin-top: 120px;
+    display: flex; 
+    flex-direction:column; 
+    padding: 10px; 
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #E8E8EA; 
+    color: black;
+    border-radius: 10px;
+}
+
+input{
+    background-color: burlywood;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+textarea{
+    background-color: burlywood;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#submit-btn{
+    background-color: burlywood;
+    width: 80px;
+}
+
+#submit-btn:hover{
+    box-shadow: 0.2px 0.2px 0.2px 0.75px #bcb6b6;
+}
